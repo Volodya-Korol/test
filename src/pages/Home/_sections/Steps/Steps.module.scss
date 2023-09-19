@@ -1,0 +1,27 @@
+.stepCircle {
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  border-radius: 100px;
+  background-color: var(--primary-dark-blue);
+  color: var(--white);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  transition: background-color 0.2s;
+
+  &.collapse {
+    background-color: var(--primary-green);
+  }
+}
+
+.stepRoad {
+  margin-top: 4px;
+  border-left: 1px var(--primary-dark-blue) dashed;
+  min-height: 32px;
+  height: 100%;
+
+  &.preLast {
+    min-height: 21px;
+  }
+}

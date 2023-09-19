@@ -1,0 +1,49 @@
+.section {
+  padding: 54px 24px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.devices {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  color: var(--primary-dark-blue);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.videoWrapper {
+  border-radius: 14px;
+  background: var(--primary-blue);
+  padding: 16px 24px;
+  max-width: 380px;
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.listTitle {
+  color: var(--primary-dark-blue);
+  text-align: center;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.249px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-dark-blue);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}

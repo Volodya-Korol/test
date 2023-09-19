@@ -1,0 +1,45 @@
+.timeBox {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff2eb;
+  padding: 0 12px;
+  color: #df723a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+
+  span {
+    font-size: 11px;
+    font-weight: 400;
+  }
+}
+
+.priceBox {
+  border-radius: 16px;
+  max-height: 100px;
+  background: #f2f8ff;
+  display: grid;
+  grid-template-columns: 25px 45px auto;
+  justify-content: center;
+  padding: 16px 30px 20px 40px;
+  color: var(--primary-blue);
+  line-height: normal;
+  font-weight: 700;
+}
+
+.benefitsList {
+  margin-top: 3px;
+  padding: 0 20px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  div {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+  }
+}
